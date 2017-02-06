@@ -16,6 +16,3 @@ for($i=1;$i<=10;$i++){
 }
 $json=json_encode($data);
 echo $json;
-$handle=fopen('test.json','w');
-fwrite($handle, $json);
-fclose($handle);
