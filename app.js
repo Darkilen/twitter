@@ -20,7 +20,7 @@ myApp.controller("mytweets",['$scope', '$http', function($scope, $http){
   $http.get('data/feed.json').then(function(success){
     console.log(success);
     for(let i=0;i<success.data.length;i++){
-      $scope.tweets.push(success.data[i].tweet);
+      $scope.tweets.push(success.data[i]);
     }
   }, function(error){
     console.log('Non.');

@@ -23,7 +23,16 @@
     </div>
     <div ng-controller="mytweets" class="col-sm-6">
       <div ng-repeat="item in tweets track by $index">
-        {{item}}
+        <article class="article-custom">
+          <p>
+          <span class="text-capitalize">{{item.user}}</span>
+          <span class="data">{{item.date}}</span>
+          </p>
+          <p>
+          {{item.tweet}}
+          </p>
+        </article>
+        <br>
       </div>
     </div>
     <div class="col-sm-3">

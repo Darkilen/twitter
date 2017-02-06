@@ -1,9 +1,9 @@
 [
-  {"id":"1","user":"darkilen","tweet":"Salut, ça va ?","date":""},
-  {"id":"2","user":"metallou","tweet":"ça va !","date":""},
-  {"id":"3","user":"darkilen","tweet":"Quoi de neuf ?","date":""},
-  {"id":"4","user":"simplon","tweet":"Les cours, c'est bien","date":""},
-  {"id":"5","user":"darkilen","tweet":"J'ai enfin un nouveau PC !","date":""},
-  {"id":"6","user":"felix","tweet":"C'est super","date":""},
-  {"id":"7","user":"darkilen","tweet":"Merci, merci","date":""}
+  {"id":"1","user":"darkilen","tweet":"Salut, ça va ?","date":"20 janvier 2017, 20:10:30"},
+  {"id":"2","user":"metallou","tweet":"ça va !","date":"20 janvier 2017, 20:10:30"},
+  {"id":"3","user":"darkilen","tweet":"Quoi de neuf ?","date":"20 janvier 2017, 20:10:30"},
+  {"id":"4","user":"simplon","tweet":"Les cours, c'est bien","date":"20 janvier 2017, 20:10:30"},
+  {"id":"5","user":"darkilen","tweet":"J'ai enfin un nouveau PC !","date":"20 janvier 2017, 20:10:30"},
+  {"id":"6","user":"felix","tweet":"C'est super","date":"20 janvier 2017, 20:10:30"},
+  {"id":"7","user":"darkilen","tweet":"Merci, merci","date":"20 janvier 2017, 20:10:30"}
 ]
