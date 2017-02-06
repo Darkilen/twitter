@@ -17,7 +17,7 @@ myApp.config(function($stateProvider){
 });
 myApp.controller("mytweets",['$scope', '$http', function($scope, $http){
   $scope.tweets = [];
-  $http.get('back/api/test.json').then(function(success){
+  $http.get('http://147.94.36.188:8888/generatorjson.php').then(function(success){
     console.log(success);
     for(let i=0;i<success.data.length;i++){
       $scope.tweets.push(success.data[i]);
