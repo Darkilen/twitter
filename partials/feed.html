@@ -1,0 +1,33 @@
+<div class='container-fluid'>
+  <img src="../../data/couv.jpeg">
+</div>
+<div class='container'>
+  <nav class="navbar nav-tabs navbar-default">
+    <div class="container-fluid">
+      <img id=profil src="../../data/profile.jpeg">
+    </div>
+    <div class="container-fluid">
+      <div class="col-sm-offset-3">
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="center">TWEETS<br>847</a></li>
+          <li><a class="center">ABONNEMENTS<br>169</a></li>
+          <li><a class="center">ABONNES<br>540</a></li>
+          <li><a class="center">J'AIME<br>35</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="col-sm-3">
+      Bacon ipsum dolor amet pork chop jerky pancetta beef ribs ham, pig shankle cow sirloin boudin cupim. Fatback pastrami pork hamburger ground round. Boudin leberkas tri-tip, beef landjaeger fatback doner meatball tongue shankle strip steak beef ribs. Pastrami tenderloin sirloin spare ribs cow boudin. Chuck jowl shoulder boudin. Meatloaf tail kevin sausage. Frankfurter beef ribs fatback t-bone.
+    </div>
+    <div ng-controller="mytweets" class="col-sm-6">
+      <div ng-repeat="item in tweets track by $index">
+        {{item}}
+      </div>
+    </div>
+    <div class="col-sm-3">
+      Bacon ipsum dolor amet pork chop jerky pancetta beef ribs ham, pig shankle cow sirloin boudin cupim. Fatback pastrami pork hamburger ground round. Boudin leberkas tri-tip, beef landjaeger fatback doner meatball tongue shankle strip steak beef ribs. Pastrami tenderloin sirloin spare ribs cow boudin. Chuck jowl shoulder boudin. Meatloaf tail kevin sausage. Frankfurter beef ribs fatback t-bone.
+    </div>
+  </div>
+</div>

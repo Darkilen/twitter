@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Darkilen">
+    <meta name="description" content="Refaire twitter, navbar, zone perso a gauche, fil de tweet simple">
+    <title>Twitter</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body ng-app="twitter">
+    <nav class="navbar nav-tabs navbar-default">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav">
+            <li ui-sref="wall" ui-sref-active="active"><a> Wall</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li ui-sref="login" ui-sref-active="active"><a> Login</a></li>
+        </div>
+      </div>
+    </nav>
+    <ui-view></ui-view>
+    <!-- AngularJS-UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+    <script src="https://unpkg.com/angular-ui-router@1.0.0-rc.1/release/angular-ui-router.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- My script-->
+    <script src="app.js"></script>
+  </body>
+</html>
